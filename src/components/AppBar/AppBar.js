@@ -14,11 +14,10 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 
-// const pages = ["Учетные записи", "Пользователи", "Объекты"];
 const pages = [
-  { title: "Учетные записи", href: "account" },
+  { title: "Учетные записи", href: "accounts" },
   { title: "Пользователи", href: "users" },
-  { title: "Объекты", href: "objects" },
+  { title: "DeviceList", href: "devices" },
 ];
 
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
